@@ -2,6 +2,9 @@
   "name": "api-rest-nodejs",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node build/server.js",
     "dev": "tsx watch src/server.ts",
