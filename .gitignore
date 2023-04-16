@@ -130,4 +130,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 .tmp
-db/app.db
+db/*.db
+
+build
+knexfile.js
